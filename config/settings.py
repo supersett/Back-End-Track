@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 from pathlib import Path
-import os
+import os, json
 from django.core.exceptions import ImproperlyConfigured
 
 
@@ -51,12 +51,11 @@ DJANGO_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'dashboard',
 ]
 
 PROJECT_APPS=[
     'dashboard'
-              ]
+]
 
 THIRD_PARTY_APPS=[]
 
